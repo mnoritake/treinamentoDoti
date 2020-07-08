@@ -1,0 +1,26 @@
+--> input no console
+
+import java.util.Scanner;
+
+class ManipulaString{
+public static void main(String args[]){
+
+Scanner teclado = new Scanner(System.in);
+
+}
+}
+
+
+---
+--> aparecer caixinha
+import javax.swing.JOptionPane;
+
+class ManipulaString{
+public static void main(String args[]){
+
+String email=JOptionPane.showInputDialog("Digite o e-mail:");
+String email=JOptionPane.showInputDialog("Digite o e-mail");
+System.out.println("Minúsculo: " + email.toLowerCase());
+System.out.println("Maiúsculo: " + email.toUpperCase());
+}
+}
