@@ -1,7 +1,7 @@
 class Variaveis{
 public static void main(String args[]){
 // para armazenar um nome
-String nome = "Monica";
+String nome = "xxxx";
 String sobrenome = "Noritake";
 // para armazenar o peso de uma pessoa
 float peso = 100;
